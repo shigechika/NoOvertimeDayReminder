@@ -6,9 +6,9 @@ function noOvertimeDayRemainder() {
     var week = [ "日", "月", "火", "水", "木", "金", "土" ];
 
     MailApp.sendEmail(
-      'all@example.jp', // 管財部
+      'all@example.jp', // 通知先メールアドレス
       'No残業Dayのお知らせ',
-      '皆様，' + (today.getMonth() + 1) + '月' + today.getDate() + '日（'　+ week[ today.getDay() ] + '）はNo残業Dayです。\n定時になったら速やかに退勤しましょう！\n-- No残業Dayリマインダー\n※ 本メールは送信専用メールアドレスから送っています。返信いただいてもお答えできませんのでご了承ください。',
+      '各位，' + (today.getMonth() + 1) + '月' + today.getDate() + '日（'　+ week[ today.getDay() ] + '）はNo残業Dayです。\n定時になったら速やかに退勤しましょう！\n-- No残業Dayリマインダー\n※ 本メールは送信専用メールアドレスから送っています。返信いただいてもお答えできませんのでご了承ください。',
       { noReply: true });
   } else {
     Logger.log("残業OK");
