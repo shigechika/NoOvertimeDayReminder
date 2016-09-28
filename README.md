@@ -11,7 +11,18 @@ No残業Dayリマインダー
 
 手順
 ----
-Googleドライブにて新規Google Apps Scriptを開きスクリプトスクリプト（NoOvertimeDayRemainder.gs）をコピペし，通知先メールアドレス（Googleグループ等のMLが望ましい），No残業Day（noOvertimeDays）と休暇日（vacation）を調整し，トリガー設定（実行:noOvertimeDayRemainder, イベント:時間主導型, 日タイマー, 正午〜午後1時）すればOK。
++ Googleドライブにて新規Google Apps Scriptを開く
+!(img/step1.png)
++ スクリプトスクリプト（NoOvertimeDayRemainder.gs）をコピペし通知先メールアドレス（Googleグループ等のMLが望ましい），No残業Day（noOvertimeDays）と休暇日（vacation）を調整し保存する
+!(img/step2.png)
++ NoOvertimeDayRemainderを指定してテスト実行。
+!(img/step3.png)
++ 承認とか許可を求められるのでポチる
+!(img/step4.png)
+!(img/step5.png)
++ トリガー設定（実行:noOvertimeDayRemainder, イベント:時間主導型, 日タイマー, 正午〜午後1時）
+!(img/step6.png)
++ あとは然るべき時を待つ
 
 お試しあれ！
 ----------
