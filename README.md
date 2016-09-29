@@ -15,14 +15,15 @@ No残業Dayリマインダー
 ![step1](img/step1.png)
 + スクリプトスクリプト（NoOvertimeDayRemainder.gs）をコピペし通知先メールアドレス（Googleグループ等のMLが望ましい），No残業Day（noOvertimeDays）と休暇日（vacation）を調整し保存する
 ![step2](img/step2.png)
-+ NoOvertimeDayRemainderを指定してテスト実行。
++ NoOvertimeDayRemainderを指定してテスト実行
 ![step3](img/step3.png)
-+ 承認とか許可を求められるのでポチる
++ 起動を承認する
 ![step4](img/step4.png)
++ APIの利用を許可する
 ![step5](img/step5.png)
 + トリガー設定（実行:noOvertimeDayRemainder, イベント:時間主導型, 日タイマー, 正午〜午後1時）
 ![step6](img/step6.png)
-+ あとは然るべき時を待つ
++ できあがり
 
 お試しあれ！
 ----------
